@@ -126,14 +126,22 @@ html, body {
     padding: 30px 15px 10px 15px;
     text-transform: uppercase;
 }
+.header .header__nav ul li:first-child a {
+    padding-left: 0;
+}
 
 /* Main */
 /* 1.Home Banner */
 .pageBanner {
 	margin-top: -54px;
+    background: url(../images/banner/banner4.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .pageBanner .pageBanner__content {
 	position: relative;
+    height: 80vh;
 }
 .pageBanner .pageBanner__content .pageBanner__image {
 	width: 50%;
